@@ -7,7 +7,9 @@
     "dev": "vite --port 3000",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview --port 3000"
+    "preview": "vite preview --port 3000",
+    "lint:ts": "npx eslint \"src/**/*.{ts,tsx,jsx,js}\"",
+    "lint:ts:fix": "npx eslint \"src/**/*.{ts,tsx,jsx,js}\" --fix"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

@@ -13,6 +13,11 @@
   color-scheme: dark;
 }
 
+.logo-icon {
+  color: red;
+  fill: red;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Earth = () => {
-  return (
-    <div>Earth</div>
-  )
-}
+    console.log('earth');
+    return (
+        <div>Earth</div>
+    );
+};
 
-export default Earth
+export default Earth;

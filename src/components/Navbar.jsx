@@ -30,7 +30,7 @@ const Navbar = () => {
                     <p
                         className="text-white text-[18px] font-bold cursor-pointer flex"
                     >
-                        SP testing ci cd &nbsp;
+                        SP &nbsp;
                         <span className="sm:block hidden">| Web Dev</span>
                     </p>
                 </Link>

@@ -54,5 +54,6 @@ module.exports = {
         'space-infix-ops': 'off',
         'jsx-a11y/label-has-associated-control': 'off',
         'default-case': 'off',
+        'react/no-unknown-property': 'off',
     },
 };

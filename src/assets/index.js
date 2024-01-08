@@ -29,9 +29,9 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 import mts from './company/MTC_Logo_RGB.svg';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import fixme from './fixme_screen.png';
+import blocklist from './blocklist.png';
+import telegrambot from './telegrambot.png';
 
 export {
     logo,
@@ -62,7 +62,7 @@ export {
     starbucks,
     mts,
     tesla,
-    carrent,
-    jobit,
-    tripguide,
+    fixme,
+    blocklist,
+    telegrambot,
 };

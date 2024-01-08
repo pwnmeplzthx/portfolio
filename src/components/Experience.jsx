@@ -74,27 +74,24 @@ const ExperienceCard = ({ experience }) => (
     </VerticalTimelineElement>
 );
 
-const Experience = () => {
-    console.log('exp');
-    return (
-        <>
-            <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText}`}>What I have done so far</p>
-                <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
-            </motion.div>
-            <div className="mt-20 flex flex-col">
-                <VerticalTimeline>
-                    {experiences.map((exp, index) => (
-                        <ExperienceCard
-                            key={exp.title}
-                            experience={exp}
-                        />
-                    ))}
-                </VerticalTimeline>
-            </div>
-        </>
+const Experience = () => (
+    <>
+        <motion.div variants={textVariant()}>
+            <p className={`${styles.sectionSubText}`}>What I have done so far</p>
+            <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
+        </motion.div>
+        <div className="mt-20 flex flex-col">
+            <VerticalTimeline>
+                {experiences.map((exp, index) => (
+                    <ExperienceCard
+                        key={exp.title}
+                        experience={exp}
+                    />
+                ))}
+            </VerticalTimeline>
+        </div>
+    </>
 
-    );
-};
+);
 
 export default SectionWrapper(Experience, 'work');

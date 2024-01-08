@@ -15,14 +15,12 @@ import {
     git,
     figma,
     docker,
-    meta,
+    grails,
+    groovy,
     mts,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    fixme,
+    blocklist,
+    telegrambot,
     threejs,
 } from '../assets';
 
@@ -109,6 +107,14 @@ const technologies = [
         name: 'docker',
         icon: docker,
     },
+    {
+        name: 'groovy',
+        icon: groovy,
+    },
+    {
+        name: 'grails',
+        icon: grails,
+    },
 ];
 
 const experiences = [
@@ -146,37 +152,20 @@ const experiences = [
 
 const projects = [
     {
-        name: 'Car Rent',
+        name: 'FIXME',
         description:
-        'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+        'CRM for for a small repair business.',
         tags: [
             {
                 name: 'react',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'mongodb',
-                color: 'green-text-gradient',
+                name: 'typeScript',
+                color: 'orange-text-gradient',
             },
             {
-                name: 'tailwind',
-                color: 'pink-text-gradient',
-            },
-        ],
-        image: carrent,
-        source_code_link: 'https://github.com/',
-    },
-    {
-        name: 'Job IT',
-        description:
-        'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-        tags: [
-            {
-                name: 'react',
-                color: 'blue-text-gradient',
-            },
-            {
-                name: 'restapi',
+                name: 'redux',
                 color: 'green-text-gradient',
             },
             {
@@ -184,29 +173,46 @@ const projects = [
                 color: 'pink-text-gradient',
             },
         ],
-        image: jobit,
-        source_code_link: 'https://github.com/',
+        image: fixme,
+        source_code_link: 'https://github.com/PsyStream/FixMeCrm/tree/master/frontend',
     },
     {
-        name: 'Trip Guide',
+        name: 'Block list',
         description:
-        'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+        'Fullstack extension for Google Chrome that blocks links.',
         tags: [
             {
-                name: 'nextjs',
+                name: 'next',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'supabase',
+                name: 'postgreSql',
                 color: 'green-text-gradient',
             },
             {
-                name: 'css',
+                name: 'tailwind',
                 color: 'pink-text-gradient',
             },
         ],
-        image: tripguide,
-        source_code_link: 'https://github.com/',
+        image: blocklist,
+        source_code_link: 'https://github.com/pwnmeplzthx/block-list',
+    },
+    {
+        name: 'JavaScript Dance Gym',
+        description:
+        'Telegram bot for studying front-end technologies.',
+        tags: [
+            {
+                name: 'javaScript',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'grammy',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: telegrambot,
+        source_code_link: 'https://github.com/pwnmeplzthx/javascript-telegram-bot',
     },
 ];
 

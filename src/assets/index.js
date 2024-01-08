@@ -20,6 +20,8 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
+import grails from './tech/grails.svg';
+import groovy from './tech/groovy.png';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -27,9 +29,9 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 import mts from './company/MTC_Logo_RGB.svg';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import fixme from './fixme_screen.png';
+import blocklist from './blocklist.png';
+import telegrambot from './telegrambot.png';
 
 export {
     logo,
@@ -53,12 +55,14 @@ export {
     tailwind,
     typescript,
     threejs,
+    grails,
+    groovy,
     meta,
     shopify,
     starbucks,
     mts,
     tesla,
-    carrent,
-    jobit,
-    tripguide,
+    fixme,
+    blocklist,
+    telegrambot,
 };

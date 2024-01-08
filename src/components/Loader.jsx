@@ -5,8 +5,8 @@ const Loader = () => {
     const { progress } = useProgress();
 
     return (
-        <Html>
-            <span className="canvas-load">1</span>
+        <Html className="flex flex-col justify-center items-start">
+            <span className="canvas-load">Loading...</span>
             <p style={{
                 fontSize: 14,
                 color: '#f1f1f1',

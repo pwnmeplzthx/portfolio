@@ -56,34 +56,31 @@ const ProjectCard = ({
     </motion.div>
 );
 
-const Works = () => {
-    console.log('works');
-    return (
-        <>
-            <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText}`}>My github</p>
-                <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-            </motion.div>
-            <div className="w-full flex">
-                <motion.p
-                    variants={fadeIn('', '', 0.1, 1)}
-                    className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-                >
-                    some description
-                </motion.p>
-            </div>
-            <div className="mt-20 flex flex-wrap justify-center gap-7">
-                {projects.map((project, index) => (
-                    <ProjectCard
-                        // eslint-disable-next-line react/no-array-index-key
-                        key={`project-${index}`}
-                        index={index}
-                        {...project}
-                    />
-                ))}
-            </div>
-        </>
-    );
-};
+const Works = () => (
+    <>
+        <motion.div variants={textVariant()}>
+            <p className={`${styles.sectionSubText}`}>My github</p>
+            <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        </motion.div>
+        <div className="w-full flex">
+            <motion.p
+                variants={fadeIn('', '', 0.1, 1)}
+                className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            >
+                some description
+            </motion.p>
+        </div>
+        <div className="mt-20 flex flex-wrap justify-center gap-7">
+            {projects.map((project, index) => (
+                <ProjectCard
+                    // eslint-disable-next-line react/no-array-index-key
+                    key={`project-${index}`}
+                    index={index}
+                    {...project}
+                />
+            ))}
+        </div>
+    </>
+);
 
 export default SectionWrapper(Works);

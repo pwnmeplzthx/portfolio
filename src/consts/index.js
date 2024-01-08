@@ -15,6 +15,8 @@ import {
     git,
     figma,
     docker,
+    grails,
+    groovy,
     meta,
     mts,
     starbucks,
@@ -108,6 +110,14 @@ const technologies = [
     {
         name: 'docker',
         icon: docker,
+    },
+    {
+        name: 'groovy',
+        icon: groovy,
+    },
+    {
+        name: 'grails',
+        icon: grails,
     },
 ];
 

@@ -20,6 +20,8 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
+import grails from './tech/grails.svg';
+import groovy from './tech/groovy.png';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -53,6 +55,8 @@ export {
     tailwind,
     typescript,
     threejs,
+    grails,
+    groovy,
     meta,
     shopify,
     starbucks,

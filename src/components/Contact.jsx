@@ -25,15 +25,15 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setIsLoading(true);
-        emailjs.send('service_89ylpz4', 'template_m4vrjxo', {
+        emailjs.send(import.meta.env.VITE_EMAIL_SERVICE, import.meta.env.VITE_EMAIL_TEMPLATE, {
             from_name: form.name,
             to_name: 'PS',
             from_email: form.email,
             to_email: 'pshumakov11@mail.ru',
             message: form.message,
-        }, 'sQKaBqkdbb2GU8vuP').then(() => {
+        }, import.meta.env.VITE_EMAIL_KEY).then(() => {
             setIsLoading(false);
-            alert('Thank you. I will get back to as soon as possible&');
+            alert('Thank you. I will get back as soon as possible');
             setForm(blankForm);
         }, (error) => {
             setIsLoading(false);

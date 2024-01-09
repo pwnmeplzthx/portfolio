@@ -207,6 +207,10 @@ const projects = [
                 color: 'blue-text-gradient',
             },
             {
+                name: 'nodejs',
+                color: 'orange-text-gradient',
+            },
+            {
                 name: 'grammy',
                 color: 'pink-text-gradient',
             },
